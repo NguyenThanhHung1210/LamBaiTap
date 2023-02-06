@@ -5,6 +5,33 @@
     <title>Title</title>
 </head>
 <body>
+<input type="text" id="nhap">
+<input type="text" id="nhap2">
+<p id="out"></p>
+<br>
+<br>
+<button onclick="plus()">Addition(+)</button>
+<button onclick="Subtraction()">Subtraction(-)</button>
+<button onclick="Multiplication()">Multiplication(X)</button>
+<button onclick="Divisinon()">Divisinon(/)</button>
 
 </body>
+<script>
+    let nhap = document.getElementById("nhap");
+    let nhap2 = document.getElementById("nhap2");
+
+    function plus() {
+        document.getElementById("out").innerText = nhap.value + nhap2.value;
+    }
+    function Subtraction() {
+        document.getElementById("out").innerText = nhap.value - nhap2.value;
+    }
+    function Multiplication() {
+        document.getElementById("out").innerText = nhap.value * nhap2.value;
+    }
+    function Divisinon() {
+        document.getElementById("out").innerText = nhap.value / nhap2.value;
+    }
+
+</script>
 </html>
