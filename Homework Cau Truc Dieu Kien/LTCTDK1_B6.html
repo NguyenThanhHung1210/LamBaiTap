@@ -5,6 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-
+<input type="number" id="nhap">
+<button type="submit" onclick="koi()">Nhập số tiền</button>
+<p id="xuat"></p>
+<script>
+    function koi(){
+        let sotien = +document.getElementById("nhap").value;
+        if(sotien>1000000){
+            let hoahong = sotien * 0.1;
+            document.getElementById('xuat').innerText= "Tiền Hoa Hồng :" + hoahong;
+        }else if(sotien>10000000){
+            let hoahong = sotien * 0.2;
+            document.getElementById('xuat').innerText= "Tiền Hoa Hồng :" + hoahong;
+        }else {
+            let hoahong = sotien * 0.3;
+            document.getElementById('xuat').innerText= "Tiền Hoa Hồng :" + hoahong;
+        }
+    }
+</script>
 </body>
 </html>

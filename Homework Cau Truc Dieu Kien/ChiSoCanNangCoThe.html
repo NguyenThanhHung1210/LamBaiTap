@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="xuat"></p>
+<script>
+    let canNang = parseInt(prompt('nhap canNang:'))
+    let chieuCao = parseInt(prompt('nhap chieuCao:'))
+
+    bmi = canNang / chieuCao*chieuCao;
+    if (bmi < 18.5) {
+        document.getElementById('xuat').innerText="Thiếu Cân";
+    } else if (bmi >= 18.5 && bmi < 25.0) {
+        document.getElementById('xuat').innerText="Bình Thường";
+    } else if (bmi >= 25.0 && bmi < 30.0) {
+        document.getElementById('xuat').innerText="Thừa Cân";
+    } else if (bmi >= 30.0) {
+        document.getElementById('xuat').innerText="Béo Phì";
+    }
+ </script>
 </body>
 </html>

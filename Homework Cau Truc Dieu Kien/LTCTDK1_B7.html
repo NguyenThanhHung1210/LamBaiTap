@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="nhap">
+<button type="submit" onclick="koi()">Nhập Thời Gian Gọi</button>
+<p id="xuat"></p>
+<script>
+    function koi() {
+        const p1 = 100;
+        const p2 = 200;
+        const p3 = 300;
+        let sophut = document.getElementById('nhap').value;
+        if (sophut<30){
+            document.getElementById('xuat').innerText= "Giá tiền là :" + sophut * p1;
+        }else if (sophut>30 && sophut<60) {
+            document.getElementById('xuat').innerText = "Giá tiền là :" + sophut * p2;
+        }else {
+            document.getElementById('xuat').innerText = "Giá tiền là :" + sophut * p3;
+        }
+    }
+</script>
+</body>
+</html>

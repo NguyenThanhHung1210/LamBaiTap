@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="xuat"></p>
+<script>
+    let dkt = parseInt(prompt('nhap diem:'));
+    let dt = parseInt(prompt('nhap diem:'));
+    let dck = parseInt(prompt('nhap diem:'));
+    let kq = (dkt + dt + dck)/3;
+    if (kq>8){
+        document.getElementById("xuat").innerText= kq +":"+ " Học sinh giỏi  "
+    }else if (kq>7){
+        document.getElementById("xuat").innerText= kq +":"+ " Học sinh khá  "
+    }else if(kq>6){
+        document.getElementById("xuat").innerText= kq +":"+ " học sinh TB  "
+    } else {
+        document.getElementById("xuat").innerText= kq +":"+ " học sinh Yếu  "
+    }
+
+</script>
 </body>
 </html>

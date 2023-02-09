@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<input type="number" id="noo">
+<button type="submit" onclick="nipe()">Nhập Số</button>
+<p id="xuat"></p>
 </body>
+<script >
+    function nipe(){
+        let so = +document.getElementById("noo").value;
+        if (so<0 ){
+            document.getElementById("xuat").innerText=so + "<0 ";
+        }else if(so>0){
+            document.getElementById("xuat").innerText=so + ">0 ";
+        }else {
+            document.getElementById("xuat").innerText=so + "=0 ";
+        }
+    }
+
+</script>
 </html>

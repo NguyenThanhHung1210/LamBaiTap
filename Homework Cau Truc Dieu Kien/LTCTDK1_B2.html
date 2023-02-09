@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<input type="number" id="nhap">
+<button type="submit" onclick="nope()">Nhập Tuổi</button>
+<p id="xuat"></p>
+<script >
+    function nope(){
+        let tuoi = +document.getElementById("nhap").value;
+        if (tuoi<15 ){
+            document.getElementById("xuat").innerText="Bạn không đủ tuổi để nhập học "
+        }else{
+            document.getElementById("xuat").innerText="Bạn đủ tuổi để nhập học "
+        }
+    }
+
+</script>
 </body>
 </html>
