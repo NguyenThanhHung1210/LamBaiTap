@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B4</title>
+</head>
+<body>
+<script>
+    const number = parseInt(prompt('nhập số: '));
+    let n1 = 0, n2 = 1, so2;
+    let fibo=0;
+
+    // document.write('Số Fibonacci:');
+
+    for (let i = 1; i <= number; i++) {
+        // document.write(n1+",");
+        so2 = n1 + n2;
+        n1 = n2;
+        n2 = so2;
+        if (n1 % 5===0 && n1!==0){
+            fibo+=(String(n1)+",");
+
+        }
+    }document.write("Dãy Số Fibonanci chia hết cho 5 : "+ fibo.slice(1));
+
+</script>
+</body>
+</html>

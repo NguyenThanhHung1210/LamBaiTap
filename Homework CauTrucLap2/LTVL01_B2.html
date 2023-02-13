@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+</head>
+<body>
+</body>
+<script>
+    let temperature;
+    do {
+        temperature= parseInt(prompt("Nhập Nhiệt Độ: "));
+        if (temperature>100) {
+            alert("giảm nhiệt độ");
+        }else if(temperature<20 ){
+            alert("tăng nhiệt độ");
+        }
+
+    } while (temperature > 100 || temperature <20);
+    document.write("Nhiệt độ bây giờ là :" + temperature);
+</script>
+</html>

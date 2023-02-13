@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B3</title>
+</head>
+<body>
+<script>
+    const number = parseInt(prompt('nhập số: '));
+    let n1 = 0, n2 = 1, so2;
+
+    document.write('Số Fibonacci:');
+
+    for (let i = 1; i <= number; i++) {
+        document.write(n1+",");
+        so2 = n1 + n2;
+        n1 = n2;
+        n2 = so2;
+
+    }
+</script>
+</body>
+</html>

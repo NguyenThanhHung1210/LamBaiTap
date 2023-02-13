@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8135f86-f9d2-43e7-9dad-02d9b93d9e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/Bien_KieuDuLieu_ToanTu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/Bien_KieuDuLieu_ToanTu_P2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/Bien_KieuDuLieu_ToanTu_P3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/Bien_KieuDuLieu_ToanTu_P4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/UngDungChuyenDoiTienTe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_bien_kieudulieu_toantu/UngDungMayTInh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/BangCuuChuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/HienThiCacSoNguyenToDauTien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL01_B8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL02_B1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL02_B2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL02_B3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL02_B4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework CauTrucLap2/LTVL02_B5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoCVcanhan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoDanhSach.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +65,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TEXT/ss6_javascript_overview/demo.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TEXT/bai_tap/LuyenTapVongLap02/Bai5.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LTCTDK1_B7.html" type="JavascriptDebugType" uri="http://localhost:63342/Bài Tập/Homework Cau Truc Dieu Kien/LTCTDK_B7.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,6 +98,13 @@
       <workItem from="1675258300751" duration="154000" />
       <workItem from="1675429797604" duration="4399000" />
       <workItem from="1675518413310" duration="338000" />
+      <workItem from="1675688164533" duration="4956000" />
+      <workItem from="1675786413874" duration="1014000" />
+      <workItem from="1675852692024" duration="8127000" />
+      <workItem from="1675862413217" duration="3362000" />
+      <workItem from="1675930213051" duration="1582000" />
+      <workItem from="1676033125456" duration="5971000" />
+      <workItem from="1676273357501" duration="1090000" />
     </task>
     <servers />
   </component>
@@ -105,13 +124,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="548" y="71" key="#LTCTDK_B7.html" timestamp="1675930816518">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="71" key="#LTCTDK_B7.html/0.0.1536.816@0.0.1536.816" timestamp="1675930816518" />
     <state x="516" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675430154050">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="516" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1675430154050" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1675258413381">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1676274318737">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675258413381" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1676274318737" />
   </component>
 </project>
