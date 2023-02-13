@@ -6,20 +6,11 @@
 </head>
 <body>
 <script>
-    let count = 0, tong = 0;
-    let dayso = " ";
-    let i = 1;
-    while (i < 30) {
-        if(i % 7 === 0) {
-            dayso += i + " ";
-            document.write(dayso);
-            tong += i;
-            count++;
-        }
-        i++;
+    let total = 0;
+    for (let i = 0; i < 30; i += 7) {
+        total += i;
     }
-    document.write("Dãy số tự nhiên là: " + dayso + "<br>");
-    document.write("Tổng các số tự nhiên là: " + tong);
+    document.write("Tổng :" + total);
 </script>
 </body>
 </html>
