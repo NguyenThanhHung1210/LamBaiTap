@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let x = 1;
+    for (let i = +prompt("Nhập chiều cao: "); i > 0 ; i--) {
+        for (let j = 0; j < i; j++) {
+            document.write("&nbsp&nbsp");
+        }
+        for (let k = 0; k < x; k++) {
+            if (i === 0 || i === 1 || k === (x - 1) || (k + x) === x) {
+                document.write("*");
+            } else {
+                document.write("&nbsp&nbsp");
+            }
+
+        }
+        document.write("<br>");
+        x += 2;
+    }
+</script>
 </body>
 </html>
