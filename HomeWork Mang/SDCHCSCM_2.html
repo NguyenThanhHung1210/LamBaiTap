@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+</head>
+<body>
+<script>
+
+    let so = prompt("nhap: ");
+    let temp ="";
+    for (let i = 0; i < so.length ; i++) {
+        if(parseInt(so.charAt(i))%2===0){
+            temp += "-" + so.charAt(i) ;
+        }else
+            temp += so.charAt(i);
+    }
+    document.write(temp);
+</script>
+</body>
+</html>

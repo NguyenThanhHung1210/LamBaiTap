@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B6</title>
+</head>
+<body>
+<script>
+    let arrInt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let arrV = parseInt(prompt("Nhập vào V:"));
+
+    let flg = false;
+
+    document.write("Mảng là [" + arrInt + "] <br>" );
+    for (let i = 0; i < arrInt.length; i++) {
+        if (arrV === arrInt[i]) {
+            document.write("V is in the array");
+            flg = true;
+            break;
+        }
+    }
+    if (flg === false) {
+        document.write("V is not in the array");
+    }
+</script>
+</body>
+</html>
