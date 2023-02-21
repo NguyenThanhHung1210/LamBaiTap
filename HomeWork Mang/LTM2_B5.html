@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B5</title>
+</head>
+<body>
+<script>
+    let arr1 = [];
+    let arr2 = [];
+    let h = prompt('Nhập Vào M1: ');
+    let u = prompt("Nhập Vào M2: ");
+    let dem = 0;
+    if (h.length !== u.length) {
+        document.write("2 chuỗi khác nhau");
+    } else {
+        for (let i = 0; i < h.length; i++) {
+            arr1[i] = h.slice(i, i + 1);
+        }
+        for (let j = 0; j < u.length; j++) {
+            arr2[j] = u.slice(j, j + 1);
+        }
+        for (let j = 0; j <u.length; j++) {
+            if(arr1[j]!==arr2[j]){
+                document.write("2 chuỗi khác nhau");
+            }else
+                dem ++ ;
+        }
+    }
+    if(dem === u.length){
+        document.write("2 chuỗi giống nhau");
+    }
+
+</script>
+</body>
+</html>
