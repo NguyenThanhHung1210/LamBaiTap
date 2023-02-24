@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển Đổi</title>
+</head>
+<body>
+<input type="number" id="alo" ><br>
+<button type="button" onclick="callFootToMeter()">foot to metter</button>
+<button type="submit" onclick="callMeterToFoot()">meter to foot</button>
+<p id="out"></p>
+<script>
+    function footToMeter(foot) {
+        let meter = 0.305 * foot;
+        return meter  ;
+    }
+    function callFootToMeter() {
+        let foot = parseInt(document.getElementById("alo").value);
+        let meter = footToMeter(foot);
+        document.getElementById("out").innerText="Sau khi đổi là: "  +meter;
+    }
+    function meterToFoot(met) {
+        let foot = 3.279     * met;
+        return foot  ;
+    }
+    function callMeterToFoot() {
+        let met = parseInt(document.getElementById("alo").value);
+        let foot=  meterToFoot(met);
+        document.getElementById("out").innerText="Sau khi đổi là: "  +foot;
+    }
+
+</script>
+</body>
+</html>
