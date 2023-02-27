@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+</head>
+<input type="number" id="hat" placeholder="Nhập Bán Kính"> <br>
+<button onclick="chuVi(document.getElementById('hat').value)">ChuVi</button>
+<button onclick="dienTich(document.getElementById('hat').value)">Bán Kính</button>
+<p id="out"></p>
+<body>
+<script>
+
+    let pi = 3.14;
+    function chuVi(r) {
+        document.getElementById("out").innerHTML=(r*2)*pi;
+    }
+
+    function dienTich(r) {
+        document.getElementById("out").innerHTML=pi * (r * r);
+    }
+
+
+</script>
+</body>
+</html>

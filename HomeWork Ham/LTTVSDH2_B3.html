@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B3</title>
+</head>
+<body>
+<input type="number" id="hat" placeholder="Nhập Số"> <br>
+<button onclick="tinhGiaiThua(document.getElementById('hat').value)">Tính Giai Thừa</button>
+<p id="xuat"></p>
+<script>
+    function tinhGiaiThua(n)
+    {
+        if(n === 0 || n === 1){
+            return 1;
+        }
+        let answer = 1;
+        for(let i = n; i >= 1; i--){
+            document.getElementById("xuat").innerHTML=answer *= i;
+        }
+        return answer;
+    }
+</script>
+</body>
+</html>

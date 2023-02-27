@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B1</title>
+</head>
+<body>
+<input type="number" id="hat">
+<button onclick="binhPuong(document.getElementById('hat').value)">Nhập</button>
+<p id="out"></p>
+<script>
+    function binhPuong(k) {
+        document.getElementById("out").innerHTML = "<input value="+(k * k) +" >";
+    }
+
+</script>
+</body>
+</html>

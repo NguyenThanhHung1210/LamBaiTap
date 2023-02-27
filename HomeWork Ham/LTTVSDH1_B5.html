@@ -5,12 +5,29 @@
     <title>B5</title>
 </head>
 <body>
-<script>
-    let mang1 = ["Polaris" , "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus"]
-    let mang2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo"]
-    function taoMang() {
-        
 
+<input type="text" id="tienganh"/>
+<input type="button" value="Dịch" onclick="chomSao()"/>
+<p id="tiengviet">hi</p>
+<script>
+    let tenChomSao = document.getElementById("tienganh");
+
+    let arrTA = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arrTV = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major ", "Leo"];
+    let dem = 0;
+    function chomSao() {
+        for (let i = 0; i < arrTA.length; i++) {
+            if (arrTA[i] === tenChomSao.value) {
+                dem = 0;
+                document.getElementById("tiengviet").innerHTML = "<input value="+ arrTV[i] + " />" ;
+                break;
+            } else {
+                dem++;
+            }
+        }
+        if (dem !== 0) {
+            alert("Không tìm thấy dữ liệu");
+        }
     }
 </script>
 </body>
