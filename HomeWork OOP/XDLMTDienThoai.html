@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điện Thoại</title>
+</head>
+<body>
+<div class="nokia">
+    <button type="button" onclick="turnOn(nokia)">turnOn</button>
+    <input type="text" id="screen">
+    <button type="button" onclick="guiTin()">Gửi tin</button>
+    <p id="statusNokia"></p>
+</div>
+<br>
+<div class="iphone">
+    <button type="button" onclick="turnOn(iphone)">turnOn</button>
+    <input type="text" style="height: 50px;width: 300px"  id="screenIphone">
+    <button type="button" onclick="nhanTin()">Nhận tin</button>
+    <p id="statusIp"></p>
+</div>
+<script>
+    class Mobile {
+        constructor() {
+            this.battery = 100;
+            this.isOn = false;
+            this.messageDraft = "";
+            this.inbox = [];
+            this.sent = [];
+        }
+
+        checkStatus() {
+
+            return this.isOn;
+        }
+
+        turnOn() {
+            this.isOn = true;
+
+        }
+
+        turnOff() {
+            this.isOn = false;
+        }
+
+        chargeBattery() {
+            this.battery = 100;
+        }
+
+        composeMessage(message) {
+            if (this.isOn) {
+                this.messageDraft = message;
+                this.battery--;
+            }
+        }
+
+        receiveMessage(message) {
+            if (this.isOn) {
+                this.inbox.push(message);
+                this.battery--;
+            }
+        }
+
+        sendMessage(message, mobile) {
+            if (this.isOn && mobile.checkStatus()) {
+                mobile.receiveMessage(message);
+                this.sent.push(message);
+                this.battery--;
+            }
+        }
+
+        viewInbox() {
+            if (this.isOn) {
+                this.battery--;
+                let result ="";
+                // console.log(this.inbox);
+                for (let i = 0; i < this.inbox.length ; i++) {
+                    // console.log(this.inbox[i]);
+                    result =  result + i + " : " + this.inbox[i] +"; ";
+                }
+                // console.log(result);
+                return result;
+            }
+        }
+
+        viewSent() {
+            if (this.isOn) {
+                this.battery--;
+                return this.sent;
+            }
+        }
+    }
+
+    const nokia = new Mobile();
+    const iphone = new Mobile();
+
+    function guiTin() {
+
+        let mess = document.getElementById("screen").value;
+        nokia.sendMessage(mess,iphone);
+    }
+
+    function nhanTin() {
+        document.getElementById("screenIphone").value = iphone.viewInbox();
+    }
+
+    function turnOn(mobile){
+        mobile.turnOn()
+        if (nokia.checkStatus()){
+            document.getElementById("statusNokia").innerText = "dien thoai dang bat";
+        }else {
+            document.getElementById("statusNokia").innerText = "dien thoai dang tat";
+        }
+        if (iphone.checkStatus()){
+            document.getElementById("statusIp").innerText = "dien thoai dang bat";
+        }else {
+            document.getElementById("statusIp").innerText = "dien thoai dang tat";
+        }
+    }
+
+</script>
+</body>
+</html>

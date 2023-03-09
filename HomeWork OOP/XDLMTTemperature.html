@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Nhiệt Độ</title>
+</head>
+<body>
+<input type="number" id="hat" placeholder="Nhập Độ C"><br>
+<button onclick="chuyenDoiDoF()">Đổi C qua F</button>
+<button onclick="chuyenDoiDoKenvin()">Đổi C qua Kenvin</button>
+<script>
+    class Temperature{
+        constructor(doC) {
+            this.doC = doC;
+        }
+        chuyenDoiCquaF(){
+            this.check()
+            document.write("Độ F là :" + ((this.doC*1.8)+32));
+        }chuyenDoiCquaKenvin(){
+            this.check()
+            document.write("Độ Kenvin là :" + (this.doC + 273.15));
+        }
+        getDoC(){
+            return this.doC;
+        }
+
+        setDoC(doC){
+            this.doC =doC;
+        }
+        check(){
+            while (this.doC <= -273){
+                this.doC = parseInt(prompt("nhập lại: "));
+            }
+        }
+    }
+    let temperature = new Temperature(0);
+    function chuyenDoiDoF() {
+        temperature.setDoC(document.getElementById("hat").value);
+        temperature.getDoC();
+        temperature.chuyenDoiCquaF();
+    }
+    function chuyenDoiDoKenvin() {
+        temperature.setDoC(document.getElementById("hat").value);
+        temperature.getDoC();
+        temperature.chuyenDoiCquaKenvin();
+    }
+</script>
+</body>
+</html>

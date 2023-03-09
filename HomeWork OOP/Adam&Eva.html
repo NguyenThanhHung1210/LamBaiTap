@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam&Eva</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor(weight) {
+            if(!isNaN(weight)){
+                this.weight = weight;
+
+            }else{
+                this.weight = 10;
+            }
+        }
+        getweight(){
+            return this.weight;
+        }
+        decrease(){
+            this.weight--;
+        }
+
+        isEmpty(){
+            if(this.weight==0){
+                return true;
+            }else
+                return false;
+        }
+
+        setweight2(sWeight){
+            this.weight= sWeight;
+        }
+    }
+    class Human {
+        constructor(name,gender,weghtMan) {
+            this.name = name;
+            this.gender = gender;
+            this.weightMan = weghtMan;
+        }
+        setgender(sGender){
+             this.gender= sGender;
+        }
+        checkApple(apple){
+            if(apple.isEmpty()){
+                alert("hết táo rồi ")
+                return false;
+            }else{
+                alert("táo còn");
+                return true;
+            }
+
+        }
+        eat(quaTao){
+            if(this.checkApple(quaTao)){
+                quaTao.decrease();
+                this.weightMan++;
+            }
+        }
+        say(tinNhan){
+            this.tinNhan= tinNhan;
+            document.write(this.tinNhan);
+        }
+        getName(){
+            return this.name;
+        }
+        setName(sName){
+            this.name= sName;
+        }
+        getweight(){
+            return this.weightMan;
+        }
+        setweight(sWeight){
+            this.weightMan = sWeight;
+        }
+        inThongTin(a,b,c){
+            this.name=a;
+            this.gender=b;
+            this.weightMan=c;
+        }
+    }
+    let apple= new Apple(20);
+    let human = new Human();
+    human.eat(apple)
+    document.write(apple.getweight()+"<br>");
+    document.write("Số Lượng táo còn lại: "+apple.getweight()+"<br>");
+    human.say("Quả Táo Khá Ngon"+"<br>");
+    apple.setweight2(8);
+    human.eat(apple)
+    document.write(apple.getweight()+"<br>");
+    document.write("Số Lượng táo còn lại: "+apple.getweight()+"<br>");
+    // human.inThongTin();
+    document.write("thong tin người: <br>" + human.inThongTin(hung,nam,25));
+    document.write(human.gender)
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Mô Tả</title>
+</head>
+<body>
+<script>
+    let rectangle = {
+        chieuDai: 12,
+        chieuRong: 6,
+        getInFor: function () {
+            return "Diện Tích : " + (this.chieuDai * this.chieuRong) + "<br>";
+        },
+        getInForr: function () {
+            return "Chu Vi: " + ((this.chieuRong + this.chieuDai) * 2);
+        },
+
+        setChieuDai: function (chieuDai) {
+            this.chieuDai = chieuDai;
+        },
+        getChieuDai: function () {
+            return this.chieuDai
+        },
+        setChieuRong: function (chieuRong) {
+            this.chieuRong = chieuRong;
+        }
+    }
+
+    document.write("Diện Tích: " + rectangle.getInFor());
+    document.write("Chu Vi: " + rectangle.getInForr()+ "<br>");
+    rectangle.setChieuDai(133);
+    document.write("Chiều Dài Sau Khi Thay Đổi Là : " + rectangle.getChieuDai() + "<br>");
+    document.write("Diện Tích: " + rectangle.getInFor());
+    document.write("Chu Vi: " + rectangle.getInForr());
+</script>
+</body>
+</html>
