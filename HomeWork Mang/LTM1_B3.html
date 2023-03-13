@@ -8,7 +8,7 @@
 <script>
     let n = parseInt(prompt("Nhập vào mảng số nguyên: "));
     let arrNum = [];
-    let vitri = 0, tongTB = 0;
+    let viTri = 0, tongTB = 0;
     for(let i = 0; i < n; i++) {
         arrNum[i] = parseInt(prompt("Nhập vào số mảng: "));
     }
@@ -17,12 +17,12 @@
     for(let i = 0; i < arrNum.length; i++) {
         if(max < arrNum[i]) {
             max = arrNum[i];
-            vitri = i;
+            viTri = i;
         }
         tongTB += arrNum[i];
     }
     tongTB /= arrNum.length;
-    document.write("Số lớn nhất trong mảng là: " + max + " vị trí trong mảng: " + vitri + "<br>");
+    document.write("Số lớn nhất trong mảng là: " + max + " vị trí trong mảng: " + viTri + "<br>");
     document.write("Tổng trung bình trong mảng là " + tongTB);
 </script>
 </body>

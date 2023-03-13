@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Smartphone Interface</title>
+    <style>
+        .iphone {
+            width: 375px;
+            height: 812px;
+            background-color: black;
+            border-radius: 40px;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .notch {
+            width: 100%;
+            height: 30px;
+            position: relative;
+            background: rgb(50, 50, 50);
+        }
+        .camera {
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .screen {
+            width: 345px;
+            height: 697px;
+            background-color: white;
+            border-radius: 20px;
+            margin: 57.5px auto 0 auto;
+            box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(220, 220, 220);
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style cho nút home */
+        .button:before {
+            content: "";
+            position: absolute;
+            top: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: rgb(190, 190, 190);
+        }
+
+        /* Highlight khi tap vào nút home */
+        .button:active:before {
+            background-color: rgb(220, 220, 220);
+        }
+
+    </style>
 </head>
 <body>
-$END$
+<div class="iphone">
+    <div class="notch">
+        <div class="camera"></div>
+    </div>
+    <div class="screen">
+        <!-- Đây là phần mà ta sẽ đặt nội dung -->
+    </div>
+    <div class="button"></div>
+</div>
 </body>
 </html>

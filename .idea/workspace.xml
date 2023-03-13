@@ -20,14 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8135f86-f9d2-43e7-9dad-02d9b93d9e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH2_B3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH2_B6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH2_B7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH_B8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork Ham/CDG Feet &amp; Meters.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Ham/CDG Feet &amp; Meters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH1_B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH1_B1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH1_B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH1_B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B4.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau3_B4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau4_B3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork CaseStudy MD1/YeuCau5_B3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH2_B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Ham/LTTVSDH2_B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork Ham/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Ham/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork Mang/LTM1_B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork Mang/LTM1_B3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +115,16 @@
       <workItem from="1677218905468" duration="4447000" />
       <workItem from="1677242578177" duration="5481000" />
       <workItem from="1677286563521" duration="3091000" />
-      <workItem from="1677482925701" duration="1655000" />
+      <workItem from="1677482925701" duration="1799000" />
+      <workItem from="1677669386600" duration="2989000" />
+      <workItem from="1677675194113" duration="3493000" />
+      <workItem from="1677848515616" duration="4876000" />
+      <workItem from="1678104993167" duration="7404000" />
+      <workItem from="1678244638144" duration="1207000" />
+      <workItem from="1678280217671" duration="5444000" />
+      <workItem from="1678344831251" duration="735000" />
+      <workItem from="1678345671558" duration="9000" />
+      <workItem from="1678455096970" duration="638000" />
     </task>
     <servers />
   </component>
@@ -141,10 +156,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1676274318737" />
+    <state x="615" y="111" key="RollbackChangesDialog" timestamp="1677851792840">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="615" y="111" key="RollbackChangesDialog/0.0.1536.816@0.0.1536.816" timestamp="1677851792840" />
     <state x="277" y="53" key="SettingsEditor" timestamp="1676796362681">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1676796362681" />
+    <state x="611" y="181" key="refactoring.ChangeSignatureDialog" timestamp="1678110054543">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="611" y="181" key="refactoring.ChangeSignatureDialog/0.0.1536.816@0.0.1536.816" timestamp="1678110054543" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1676899982965">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
